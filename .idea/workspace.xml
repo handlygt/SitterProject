@@ -6,16 +6,21 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de2618b4-69da-4d87-8c85-5a4221476d98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SitterProject.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_eclipse_paho_android_service_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_eclipse_paho_client_mqttv3_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_19_1_0.xml" />
-      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\.idea\sensortag.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/BleSensorTag.iml" afterPath="$PROJECT_DIR$/BleSensorTag/BleSensorTag.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="de2618b4-69da-4d87-8c85-5a4221476d98" name="Default" comment="Gutted Sensor portion of App">
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\common\IBMIoTCloudProfile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\common\IBMIoTCloudTableRow.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagAccelerometerProfile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagBarometerProfile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagBarometerTableRow.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagHumidityProfile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagIRTemperatureProfile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagLuxometerProfile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagMovementProfile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagMovementTableRow.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagSimpleKeysProfile.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Handly\Desktop\SitterProject\BleSensorTag\src\main\java\com\example\ti\ble\sensortag\SensorTagSimpleKeysTableRow.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAmbientTemperatureProfile.java" afterPath="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAmbientTemperatureProfile.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sensortag.iws" />
@@ -44,38 +49,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BleDeviceInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BleDeviceInfo.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+              <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BluetoothLeService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CloudProfileConfigurationDialogFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SitterProject.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SitterProject.iml">
+      <file leaf-file-name="SensorTagAmbientTemperatureProfile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAmbientTemperatureProfile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -84,74 +69,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FwUpdateActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/FwUpdateActivity.java">
+      <file leaf-file-name="ScanView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ScanView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+              <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewPagerActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ViewPagerActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutDialog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/AboutDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeviceActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.519608">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
               <folding>
-                <element signature="e#0#3348#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#20103#20104#0" expanded="false" />
-                <element signature="e#20134#20135#0" expanded="false" />
-                <element signature="e#20249#20250#0" expanded="false" />
-                <element signature="e#20303#20304#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5828#5829#0" expanded="true" />
+                <element signature="e#5864#5865#0" expanded="true" />
+                <element signature="e#10500#10501#0" expanded="true" />
+                <element signature="e#10559#10560#0" expanded="true" />
+                <element signature="e#12061#12062#0" expanded="true" />
+                <element signature="e#12115#12116#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_fwupdate.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/layout/activity_fwupdate.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_activity_actions.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/menu/main_activity_actions.xml">
+      <file leaf-file-name="DeviceView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceView.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="device_activity_actions.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/menu/device_activity_actions.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_file.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/layout/activity_file.xml">
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeviceInformationServiceProfile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="260" column="1" selection-start-line="260" selection-start-column="1" selection-end-line="260" selection-end-column="1" />
+              <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -1377,6 +1347,17 @@
       <projects_view />
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAmbientTemperatureProfile.java" />
+        <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/IBMIoTCloudTableRow.java" />
+        <option value="$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java" />
+      </list>
+    </option>
+  </component>
   <component name="NamedScopeManager">
     <order />
   </component>
@@ -1582,6 +1563,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-xxhdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensortag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SitterProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BleSensorTag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="drawable-hdpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1647,6 +1658,44 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensortag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SitterProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BleSensorTag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ti" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ble" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensortag" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1912,18 +1961,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.4935275" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32965687" sideWeight="0.504315" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32965687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32965687" sideWeight="0.495685" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1931,6 +1980,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3867314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.495685" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24943651" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1944,7 +1994,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32955772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1957,6 +2006,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed Gradle issue" />
+    <MESSAGE value="Gutted Sensor portion of App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gutted Sensor portion of App" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2098,6 +2152,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9019608">
+          <caret line="261" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#3301#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/layout/activity_file.xml">
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2109,43 +2182,122 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceProfile.java">
+    <entry file="file://$PROJECT_DIR$/SitterProject.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="260" column="1" selection-start-line="260" selection-start-column="1" selection-end-line="260" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BleDeviceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/CloudProfileConfigurationDialogFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-13.717647">
           <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SitterProject.iml">
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BluetoothLeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50784314">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/common/BleDeviceInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24509804">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/btsig/profiles/DeviceInformationServiceTableRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24509804">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/drawable-xxhdpi/accelerometer_450.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/drawable-xxhdpi/barometer_450.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/res/drawable-xxhdpi/cloud_connected.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/AboutDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/SensorTagAmbientTemperatureProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ScanView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="13" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/ViewPagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BleSensorTag/src/main/java/com/example/ti/ble/sensortag/DeviceActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.519608">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5828#5829#0" expanded="true" />
+            <element signature="e#5864#5865#0" expanded="true" />
+            <element signature="e#10500#10501#0" expanded="true" />
+            <element signature="e#10559#10560#0" expanded="true" />
+            <element signature="e#12061#12062#0" expanded="true" />
+            <element signature="e#12115#12116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
