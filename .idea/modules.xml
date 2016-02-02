@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sensortag.iml" filepath="$PROJECT_DIR$/.idea/sensortag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BleSensorTag/BleSensorTag.iml" filepath="$PROJECT_DIR$/BleSensorTag/BleSensorTag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SitterProject.iml" filepath="$PROJECT_DIR$/SitterProject.iml" />
     </modules>
   </component>
 </project>
