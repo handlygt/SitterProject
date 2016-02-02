@@ -186,21 +186,7 @@ import com.example.ti.ble.ti.profiles.TIOADProfile;
 		return super.onCreateOptionsMenu(menu);
 	}
 
-	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
-		// Handle presses on the action bar items
-		switch (item.getItemId()) {
-		case R.id.opt_prefs:
-			startPreferenceActivity();
-			break;
-		case R.id.opt_about:
-			openAboutDialog();
-			break;
-		default:
-			return super.onOptionsItemSelected(item);
-		}
-		return true;
-	}
+
 	public boolean isEnabledByPrefs(String prefName) {
 		String preferenceKeyString = "pref_"
 				+ prefName;
@@ -226,23 +212,6 @@ import com.example.ti.ble.ti.profiles.TIOADProfile;
 		return fi;
 	}
 
-	void onViewInflated(View view) {
-		// Log.d(TAG, "Gatt view ready");
-		setBusy(true);
-
-		// Set title bar to device name
-		setTitle(mBluetoothDevice.getName());
-
-		// Create GATT object
-		mBtGatt = BluetoothLeService.getBtGatt();
-		// Start service discovery
-		if (!mServicesRdy && mBtGatt != null) {
-			if (mBtLeService.getNumServices() == 0)
-				discoverServices();
-			else {
-			}
-		}
-	}
 
 	boolean isSensorTag2() {
 		return mIsSensorTag2;
@@ -259,25 +228,6 @@ import com.example.ti.ble.ti.profiles.TIOADProfile;
 		return mConnControlService;
 	}
 
-	private void startPreferenceActivity() {
-		// Launch preferences
-		final Intent i = new Intent(this, PreferencesActivity.class);
-		i.putExtra(PreferencesActivity.EXTRA_SHOW_FRAGMENT,
-				PreferencesFragment.class.getName());
-		i.putExtra(PreferencesActivity.EXTRA_NO_HEADERS, true);
-		i.putExtra(EXTRA_DEVICE, mBluetoothDevice);
-		startActivityForResult(i, PREF_ACT_REQ);
-	}
-
-	private void discoverServices() {
-		if (mBtGatt.discoverServices()) {
-			mServiceList.clear();
-			setBusy(true);
-
-		} else {
-
-		}
-	}
 
 	private void setBusy(boolean b) {
 		mDeviceView.setBusy(b);

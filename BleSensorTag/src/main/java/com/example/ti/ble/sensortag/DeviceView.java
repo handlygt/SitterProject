@@ -94,7 +94,7 @@ import android.widget.TableRow;
 		table = (TableLayout) view.findViewById(R.id.generic_services_layout);
 
 		// Notify activity that UI has been inflated
-		mActivity.onViewInflated(view);
+
 		
 		return view;
 	}
